@@ -65,6 +65,9 @@ html, body
 .input_div_message_page
 {
 	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+	padding-top: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
 }
 .input_div_message_page label
 {
