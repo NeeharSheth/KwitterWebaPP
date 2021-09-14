@@ -1,15 +1,3 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyBD3wKexnw799hEbL9g9QiEc6acL5KncQw",
-    authDomain: "letschatt-9d732.firebaseapp.com",
-    databaseURL: "https://letschatt-9d732-default-rtdb.firebaseio.com",
-    projectId: "letschatt-9d732",
-    storageBucket: "letschatt-9d732.appspot.com",
-    messagingSenderId: "334987713789",
-    appId: "1:334987713789:web:a336fddef53b973275b294"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
    
 username= localStorage.getItem("username");
 room_name= localStorage.getItem("room_name");
