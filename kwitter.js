@@ -11,5 +11,5 @@ function add_user(){
 function login(){
     used_username= localStorage.getItem("username");
     if(used_username){
-    window.location= "kwitter_page.html";
+    window.location= "kwitter_room.html";
     }}
